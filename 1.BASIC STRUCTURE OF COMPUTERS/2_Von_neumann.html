@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Structure</title>
+    <link rel="stylesheet" href="2_Von_Neumann.css">
+</head>
+<body>
+    <h1>Von Neumann Architecture</h1>
+
+    <h2>Von Neumann Architecture</h2>
+    <p>The Von Neumann architecture, also known as the Von Neumann model or Von Neumann machine, is a theoretical framework and design concept for a digital computer. It was proposed by the Hungarian-American mathematician and physicist John von Neumann in the mid-20th century.</p>
+    <p>The Von Neumann architecture is characterized by the following key components:</p>
+    <ol>
+        <li><strong>Central Processing Unit (CPU):</strong> The CPU is responsible for executing instructions stored in memory. It consists of an arithmetic logic unit (ALU) for performing calculations and logic operations, and a control unit (CU) that fetches instructions, decodes them, and coordinates the operations of other components.</li>
+        <li><strong>Memory:</strong> The memory stores both data and instructions that the CPU operates on. In the Von Neumann architecture, instructions and data are stored in the same memory space, allowing programs to be easily modified and executed dynamically.</li>
+        <li><strong>Input/Output (I/O) Devices:</strong> These devices facilitate communication between the computer and the external world. Examples include keyboards, mice, monitors, printers, and storage devices.</li>
+        <li><strong>Control Unit (CU):</strong> As part of the CPU, the control unit manages the flow of data and instructions within the computer. It fetches instructions from memory, decodes them, and controls the execution of operations.</li>
+        <li><strong>Data Bus:</strong> The data bus is a communication pathway that allows data to be transferred between the CPU, memory, and I/O devices.</li>
+        <li><strong>Address Bus:</strong> The address bus carries memory addresses, indicating the location of data or instructions in memory.</li>
+    </ol>
+    <p>The Von Neumann architecture revolutionized computer design by introducing the concept of stored-program computers, where both instructions and data are stored in the same memory. This design allows for more flexible and efficient computation, as programs can be easily modified and executed without physical rewiring of the machine. The vast majority of modern computers, including desktops, laptops, and servers, are based on the Von Neumann architecture.</p>
+
+    <div id="Mainpic">
+        <img src="Von_Neumen.png" width="650px" alt="flowers">
+    </div>
+
+    <p>Registers refer to high-speed storage areas in the CPU. The data processed by the CPU are fetched from the registers. There are different types of registers used in architecture:</p>
+    <ul>
+        <li><strong>Accumulator:</strong> Stores the results of calculations made by ALU. It holds the intermediate of arithmetic and logical operations. It acts as a temporary storage location or device.</li>
+        <li><strong>Program Counter (PC):</strong> Keeps track of the memory location of the next instructions to be dealt with. The PC then passes this next address to the Memory Address Register (MAR).</li>
+        <li><strong>Memory Address Register (MAR):</strong> It stores the memory locations of instructions that need to be fetched from memory or stored in memory.</li>
+        <li><strong>Memory Data Register (MDR):</strong> It stores instructions fetched from memory or any data that is to be transferred to, and stored in, memory.</li>
+        <li><strong>Current Instruction Register (CIR):</strong> It stores the most recently fetched instructions while it is waiting to be coded and executed.</li>
+        <li><strong>Instruction Buffer Register (IBR):</strong> The instruction that is not to be executed immediately is placed in the instruction buffer register IBR.</li>
+    </ul>
+
+    <h2>Buses</h2>
+    <p>Data is transmitted from one part of a computer to another, connecting all major internal components to the CPU and memory, by the means of Buses. Types:</p>
+    <ul>
+        <li><strong>Data Bus:</strong> It carries data among the memory unit, the I/O devices, and the processor.</li>
+        <li><strong>Address Bus:</strong> It carries the address of data (not the actual data) between memory and processor.</li>
+        <li><strong>Control Bus:</strong> It carries control commands from the CPU (and status signals from other devices) in order to control and coordinate all the activities within the computer.</li>
+    </ul>
+</body>
+</html>
